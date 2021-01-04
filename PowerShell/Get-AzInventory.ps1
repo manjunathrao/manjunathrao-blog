@@ -337,7 +337,6 @@ $AzureLBList = Get-AzLoadBalancer
             # Back End VM List
             $AzureLBBackendPoolVMs = $AzureLBList_Iterator.BackendAddressPools.BackendIpConfigurations
 
-            $aa
             # Proceed only if $ExternalLBBackendPoolVMs array has data.
             if($AzureLBBackendPoolVMs.count -ne $NULL){
 
